@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-11T20:15:52 IST" name="Default suite" finished-at="2022-09-11T20:15:52 IST" duration-ms="52">
+    <groups>
+      <group name="SmokeSuite">
+        <method signature="OrganizationTest.orgCreated()[pri:1, instance:ddt.OrganizationTest@7671cb68]" name="orgCreated" class="ddt.OrganizationTest"/>
+        <method signature="OrganizationTest.orgDeleted()[pri:3, instance:ddt.OrganizationTest@7671cb68]" name="orgDeleted" class="ddt.OrganizationTest"/>
+      </group> <!-- SmokeSuite -->
+    </groups>
+    <test started-at="2022-09-11T20:15:52 IST" name="Default test" finished-at="2022-09-11T20:15:52 IST" duration-ms="52">
+      <class name="ddt.OrganizationTest">
+        <test-method signature="runTimeOrguments()[pri:0, instance:ddt.OrganizationTest@7671cb68]" started-at="2022-09-11T20:15:52 IST" name="runTimeOrguments" finished-at="2022-09-11T20:15:52 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTimeOrguments -->
+        <test-method signature="orgCreated()[pri:1, instance:ddt.OrganizationTest@7671cb68]" started-at="2022-09-11T20:15:52 IST" name="orgCreated" finished-at="2022-09-11T20:15:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orgCreated -->
+        <test-method signature="orgModified()[pri:2, instance:ddt.OrganizationTest@7671cb68]" started-at="2022-09-11T20:15:52 IST" name="orgModified" finished-at="2022-09-11T20:15:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orgModified -->
+        <test-method signature="orgDeleted()[pri:3, instance:ddt.OrganizationTest@7671cb68]" started-at="2022-09-11T20:15:52 IST" name="orgDeleted" finished-at="2022-09-11T20:15:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orgDeleted -->
+      </class> <!-- ddt.OrganizationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
