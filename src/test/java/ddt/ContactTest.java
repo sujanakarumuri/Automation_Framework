@@ -20,6 +20,7 @@ public class ContactTest {
 	public void createDeleted()
 	{
 		System.out.println("Contact deleted");
+		System.out.println("This is done by engg2");
 	}
 
 	@Test
