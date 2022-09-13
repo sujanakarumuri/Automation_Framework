@@ -3,24 +3,30 @@ package ddt;
 import org.testng.annotations.Test;
 
 public class ContactTest {
-	
-	@Test(groups="RegressionSuite")
-	public void createContact()
+	@Test
+	//@Test(groups="RegressionSuite")
+	public void createContactTest()
 	{
 		System.out.println("Contact created");
 	}
 
 	@Test
-	public void createModified()
+	public void createModifiedTest()
 	{
 		System.out.println("Contact modified");
 	}
-	
-	@Test(groups="SmokeSuite")
+	@Test
+	//@Test(groups="SmokeSuite")
 	public void createDeleted()
 	{
 		System.out.println("Contact deleted");
 	}
 
+	@Test
+	public void createNewContactTest()
+	{
+		System.out.println("New contact is created");
+	}
+	
 
 }
