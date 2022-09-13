@@ -27,6 +27,7 @@ public class ContactTest {
 	public void createNewContactTest()
 	{
 		System.out.println("New contact is created");
+		System.out.println("Done by engg1");
 	}
 	
 
