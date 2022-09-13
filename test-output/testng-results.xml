@@ -2,27 +2,27 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-13T18:42:17 IST" name="Default suite" finished-at="2022-09-13T18:42:17 IST" duration-ms="49">
+  <suite started-at="2022-09-14T05:16:17 IST" name="Default suite" finished-at="2022-09-14T05:16:17 IST" duration-ms="55">
     <groups>
     </groups>
-    <test started-at="2022-09-13T18:42:17 IST" name="Default test" finished-at="2022-09-13T18:42:17 IST" duration-ms="49">
+    <test started-at="2022-09-14T05:16:17 IST" name="Default test" finished-at="2022-09-14T05:16:17 IST" duration-ms="55">
       <class name="ddt.ContactTest">
-        <test-method signature="createContact()[pri:0, instance:ddt.ContactTest@7671cb68]" started-at="2022-09-13T18:42:17 IST" name="createContact" finished-at="2022-09-13T18:42:17 IST" duration-ms="7" status="PASS">
+        <test-method signature="createContactTest()[pri:0, instance:ddt.ContactTest@7671cb68]" started-at="2022-09-14T05:16:17 IST" name="createContactTest" finished-at="2022-09-14T05:16:17 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createContact -->
-        <test-method signature="createDeleted()[pri:0, instance:ddt.ContactTest@7671cb68]" started-at="2022-09-13T18:42:17 IST" name="createDeleted" finished-at="2022-09-13T18:42:17 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- createContactTest -->
+        <test-method signature="createDeleted()[pri:0, instance:ddt.ContactTest@7671cb68]" started-at="2022-09-14T05:16:17 IST" name="createDeleted" finished-at="2022-09-14T05:16:17 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDeleted -->
-        <test-method signature="createModified()[pri:0, instance:ddt.ContactTest@7671cb68]" started-at="2022-09-13T18:42:17 IST" name="createModified" finished-at="2022-09-13T18:42:17 IST" duration-ms="1" status="PASS">
+        <test-method signature="createModifiedTest()[pri:0, instance:ddt.ContactTest@7671cb68]" started-at="2022-09-14T05:16:17 IST" name="createModifiedTest" finished-at="2022-09-14T05:16:17 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createModified -->
-        <test-method signature="createNewContact()[pri:0, instance:ddt.ContactTest@7671cb68]" started-at="2022-09-13T18:42:17 IST" name="createNewContact" finished-at="2022-09-13T18:42:17 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- createModifiedTest -->
+        <test-method signature="createNewContactTest()[pri:0, instance:ddt.ContactTest@7671cb68]" started-at="2022-09-14T05:16:17 IST" name="createNewContactTest" finished-at="2022-09-14T05:16:17 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewContact -->
+        </test-method> <!-- createNewContactTest -->
       </class> <!-- ddt.ContactTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
