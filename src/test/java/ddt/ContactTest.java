@@ -8,6 +8,7 @@ public class ContactTest {
 	public void createContactTest()
 	{
 		System.out.println("Contact created");
+		System.out.println("Done by engg1");
 	}
 
 	@Test
@@ -20,7 +21,7 @@ public class ContactTest {
 	public void createDeleted()
 	{
 		System.out.println("Contact deleted");
-		System.out.println("This is done by engg2");
+		System.out.println("Done by engg1");
 	}
 
 	@Test
