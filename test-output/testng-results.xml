@@ -1,29 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-14T05:16:17 IST" name="Default suite" finished-at="2022-09-14T05:16:17 IST" duration-ms="55">
+  <suite started-at="2022-09-15T12:53:40 IST" name="Suite" finished-at="2022-09-15T12:53:40 IST" duration-ms="86">
     <groups>
+      <group name="SmokeSuite">
+        <method signature="OrganizationTest.orgCreated()[pri:1, instance:ddt.OrganizationTest@1613674b]" name="orgCreated" class="ddt.OrganizationTest"/>
+        <method signature="OrganizationTest.orgDeleted()[pri:3, instance:ddt.OrganizationTest@1613674b]" name="orgDeleted" class="ddt.OrganizationTest"/>
+      </group> <!-- SmokeSuite -->
     </groups>
-    <test started-at="2022-09-14T05:16:17 IST" name="Default test" finished-at="2022-09-14T05:16:17 IST" duration-ms="55">
+    <test started-at="2022-09-15T12:53:40 IST" name="Test" finished-at="2022-09-15T12:53:40 IST" duration-ms="86">
+      <class name="sampleTest.DemoTest">
+        <test-method signature="demoTest()[pri:0, instance:sampleTest.DemoTest@4e096385]" started-at="2022-09-15T12:53:40 IST" name="demoTest" finished-at="2022-09-15T12:53:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest -->
+      </class> <!-- sampleTest.DemoTest -->
       <class name="ddt.ContactTest">
-        <test-method signature="createContactTest()[pri:0, instance:ddt.ContactTest@7671cb68]" started-at="2022-09-14T05:16:17 IST" name="createContactTest" finished-at="2022-09-14T05:16:17 IST" duration-ms="9" status="PASS">
+        <test-method signature="createContactTest()[pri:0, instance:ddt.ContactTest@2cd2a21f]" started-at="2022-09-15T12:53:40 IST" name="createContactTest" finished-at="2022-09-15T12:53:40 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContactTest -->
-        <test-method signature="createDeleted()[pri:0, instance:ddt.ContactTest@7671cb68]" started-at="2022-09-14T05:16:17 IST" name="createDeleted" finished-at="2022-09-14T05:16:17 IST" duration-ms="1" status="PASS">
+        <test-method signature="createDeleted()[pri:0, instance:ddt.ContactTest@2cd2a21f]" started-at="2022-09-15T12:53:40 IST" name="createDeleted" finished-at="2022-09-15T12:53:40 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDeleted -->
-        <test-method signature="createModifiedTest()[pri:0, instance:ddt.ContactTest@7671cb68]" started-at="2022-09-14T05:16:17 IST" name="createModifiedTest" finished-at="2022-09-14T05:16:17 IST" duration-ms="1" status="PASS">
+        <test-method signature="createModifiedTest()[pri:0, instance:ddt.ContactTest@2cd2a21f]" started-at="2022-09-15T12:53:40 IST" name="createModifiedTest" finished-at="2022-09-15T12:53:40 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createModifiedTest -->
-        <test-method signature="createNewContactTest()[pri:0, instance:ddt.ContactTest@7671cb68]" started-at="2022-09-14T05:16:17 IST" name="createNewContactTest" finished-at="2022-09-14T05:16:17 IST" duration-ms="1" status="PASS">
+        <test-method signature="createNewContactTest()[pri:0, instance:ddt.ContactTest@2cd2a21f]" started-at="2022-09-15T12:53:40 IST" name="createNewContactTest" finished-at="2022-09-15T12:53:40 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewContactTest -->
       </class> <!-- ddt.ContactTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="sampleTest.SampleTest">
+        <test-method signature="sampleTest()[pri:0, instance:sampleTest.SampleTest@27ff5d15]" started-at="2022-09-15T12:53:40 IST" name="sampleTest" finished-at="2022-09-15T12:53:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+      </class> <!-- sampleTest.SampleTest -->
+      <class name="ddt.OrganizationTest">
+        <test-method signature="runTimeOrguments()[pri:0, instance:ddt.OrganizationTest@1613674b]" started-at="2022-09-15T12:53:40 IST" name="runTimeOrguments" finished-at="2022-09-15T12:53:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTimeOrguments -->
+        <test-method signature="orgCreated()[pri:1, instance:ddt.OrganizationTest@1613674b]" started-at="2022-09-15T12:53:40 IST" name="orgCreated" finished-at="2022-09-15T12:53:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orgCreated -->
+        <test-method signature="orgModified()[pri:2, instance:ddt.OrganizationTest@1613674b]" started-at="2022-09-15T12:53:40 IST" name="orgModified" finished-at="2022-09-15T12:53:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orgModified -->
+        <test-method signature="orgDeleted()[pri:3, instance:ddt.OrganizationTest@1613674b]" started-at="2022-09-15T12:53:40 IST" name="orgDeleted" finished-at="2022-09-15T12:53:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orgDeleted -->
+      </class> <!-- ddt.OrganizationTest -->
+      <class name="ddt.ReadDataFromCmdLineTest">
+        <test-method signature="ReadData()[pri:0, instance:ddt.ReadDataFromCmdLineTest@649bec2e]" started-at="2022-09-15T12:53:40 IST" name="ReadData" finished-at="2022-09-15T12:53:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadData -->
+      </class> <!-- ddt.ReadDataFromCmdLineTest -->
+      <class name="sampleTest.Demo1Test">
+        <test-method signature="demo1Test()[pri:0, instance:sampleTest.Demo1Test@b62d79]" started-at="2022-09-15T12:53:40 IST" name="demo1Test" finished-at="2022-09-15T12:53:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1Test -->
+      </class> <!-- sampleTest.Demo1Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

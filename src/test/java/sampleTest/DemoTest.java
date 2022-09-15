@@ -9,6 +9,7 @@ public class DemoTest {
 	{
 		System.out.println("This is demo");
 		System.out.println("Done by engg1");
+		System.out.println("Commit pratice by engg1");
 	}
 
 }
